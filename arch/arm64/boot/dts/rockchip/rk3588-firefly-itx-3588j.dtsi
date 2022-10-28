@@ -160,7 +160,7 @@
 &pcie2x1l0 {
 	reset-gpios = <&gpio1 RK_PB4 GPIO_ACTIVE_HIGH>;
 	rockchip,skip-scan-in-resume;
-	status = "okay";
+	status = "disabled";
 };
 
 /* uart/232/485 */
